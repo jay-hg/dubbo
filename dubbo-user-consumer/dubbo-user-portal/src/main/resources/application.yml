@@ -1,0 +1,6 @@
+server:
+  port: 8020
+
+dubbo:
+  application: dubbo-user-portal-service
+  registry: zookeeper://192.168.96.121:2181
