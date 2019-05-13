@@ -23,3 +23,7 @@ spring:
     maxPoolPreparedStatementPerConnectionSize: 20
     filters: stat,wall,slf4j
     useGlobalDataSourceStat: true
+
+dubbo:
+  application: dubbo-user-service
+  registry: zookeeper://192.168.96.121:2181

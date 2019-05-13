@@ -1,12 +1,12 @@
 package com.hgc.provider.user.impl;
 
+import com.alibaba.dubbo.config.annotation.Service;
 import com.hgc.common.dto.EasyUIDatagrid;
 import com.hgc.common.dto.UserProviderResponse;
 import com.hgc.entity.User;
 import com.hgc.mapper.UserMapper;
 import com.hgc.provider.user.UserProviderService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
 
 import java.util.List;
 
